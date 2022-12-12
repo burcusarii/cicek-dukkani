@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Çiçek Dükkanı</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      .iletisim-adresleri a {
+        text-decoration: none;
+        color: black;
+      }
+
+      #contact {
+        text-align: center;
+      }
+      #bize-yazin {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="cicek-dukkanım">Çiçek Dükkanım</h1>
+    </header>
+    <nav>
+      <ul class="nav-bar">
+        <li><a href="index.html" class="nav-bar_item">Çiçek Dükkanı</a></li>
+        <li><a href="product.html" class="nav-bar_item">Çiçeklerimiz</a></li>
+        <li><a href="about-us.html" class="nav-bar_item">Hakkımızda</a></li>
+        <li><a href="contact.html" class="nav-bar_item">İletişim</a></li>
+      </ul>
+    </nav>
+    <hr />
+
+    <section id="contact">
+      <h2 class="alt-baslik">İletişim Adresi</h2>
+      <address>
+        Lorem ipsum dolor sit amet, consectetur adipisicing. <br />
+        Lorem, ipsum.
+      </address>
+      <br />
+      <div class="iletisim-adresleri">
+        <a href="tel: 02121211212">02121211212</a><br />
+        <a href="mailto: info@cicekdukkani.com">info@cicekdukkani.com</a>
+      </div>
+      <br /><br />
+    </section>
+    <!--
+        bize yazın
+      -->
+    <section id="bize-yazin">
+      <h2 class="alt-baslik">BİZE YAZIN</h2>
+      <form action="">
+        <label for="name">Adınız:</label>
+        <input type="text" id="name" /><br /><br />
+        <label for="surname">Soyadınız:</label>
+        <input type="text" id="surname" /><br /><br />
+        <label for="birth-date">Doğum Tarihiniz:</label>
+        <input type="date" id="birth-date" /><br /><br />
+        <label for="kadın">Kadın</label>
+        <input type="radio" id="kadın" name="cinsiyet" /><br /><br />
+        <label for="erkek">Erkek</label>
+        <input type="radio" id="erkek" name="cinsiyet" /><br /><br />
+        <label for="mesaj">Mesajınız:</label>
+        <textarea id="mesaj" cols="30" rows="10"></textarea> <br />
+        <button type="submit">Gönder!</button>
+      </form>
+    </section>
+    <!--
+        bize yazın
+      -->
+    <hr />
+    <footer>
+      <ul class="nav-bar">
+        <li><a href="index.html" class="nav-bar_item">Çiçek Dükkanı</a></li>
+        <li><a href="product.html" class="nav-bar_item">Çiçeklerimiz</a></li>
+        <li><a href="about-us.html" class="nav-bar_item">Hakkımızda</a></li>
+        <li><a href="contact.html" class="nav-bar_item">İletişim</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
