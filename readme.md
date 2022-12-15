@@ -1,7 +1,17 @@
-# Çiçek Dükkanı Web Sitesi
+# Çiçek Dükkanı Web Sitesi - Patika.dev 
 
-## Bu projede CSS bölümü kapsamında verilen ödev ile bir çiçek dükkanı web sayfası oluşturulmuştur.
+## Bu proje patika.dev "Başlangıç Seviye Frontend Web Development Patikası" eğitimi kapsamında CSS Bölümünde verilen ÖDEV1 için oluşturulmuştur.
+#### Projede;
+- Anasayfa için bir index.html,
+- Ürün ve fiyatların listelendiği sayfa için product.html, 
+- Firma bilgilerinin verildiği about-us.html,
+- Firma iletişim bilgilerinin bulunduğu contact.html oluşturulmuştur.
 
+#### Ayrıca projede kullanılan css kodları için "style.css" olarak external olarak eklenmiştir.
+
+### Bütün sayfalarda kullanılmak üzere bir Site Başlığı, Navigation Bar ve Footer eklenmiştir.
+
+________________________________________________
 
 # Patika.dev
 ## www.patika.dev
