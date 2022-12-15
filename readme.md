@@ -7,7 +7,7 @@
 - Firma bilgilerinin verildiği about-us.html,
 - Firma iletişim bilgilerinin bulunduğu contact.html oluşturulmuştur.
 
-#### Ayrıca projede kullanılan css kodları için "style.css" olarak external olarak eklenmiştir.
+#### Ayrıca projede kullanılan css kodları için "style.css" dosyası external olarak eklenmiştir.
 
 ### Bütün sayfalarda kullanılmak üzere bir Site Başlığı, Navigation Bar ve Footer eklenmiştir.
 
